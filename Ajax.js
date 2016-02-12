@@ -31,3 +31,5 @@ class Ajax
 let myajax = new Ajax();
 myajax.setMethod('GET').setUrl('http://www.abc.com');
 myajax.execute();
+
+//sends a GET request to 'http://www.abc.com'
