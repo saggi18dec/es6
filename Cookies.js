@@ -30,8 +30,8 @@ class Cookies
 }
 
 let cookies = new Cookies();
-cookies.addCookies("name", "ajinder", 10);
-cookies.addCookies("age", "39", 10);
-console.log(cookies.getCookies());
-cookies.deleteCookies("age");
-console.log(cookies.getCookies());
+cookies.addCookies("name", "ajinder", 10); //adds a new cookie
+cookies.addCookies("age", "39", 10); // adds another cookie
+console.log(cookies.getCookies()); //shows all cookies
+cookies.deleteCookies("age"); //deletes cookie
+console.log(cookies.getCookies()); //show all cookies
